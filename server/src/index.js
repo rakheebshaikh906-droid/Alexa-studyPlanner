@@ -9,7 +9,7 @@ const dataFile = path.resolve(serverRoot, process.env.DATA_FILE || './data/db.js
 // API_PORT, not PORT: hosting tools often set PORT for the frontend dev server.
 const port = Number(process.env.API_PORT) || 8787;
 
-const store = new Store(dataFile);
+const store = new Store(dataFile);//
 const app = createApp({ store, clientDist: path.resolve(serverRoot, '../client/dist') });
 
 app.listen(port, () => {
