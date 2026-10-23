@@ -38,3 +38,4 @@ export const api = {
   confirm: (id) => request('POST', `/api/actions/${id}/confirm`),
   cancel: (id) => request('POST', `/api/actions/${id}/cancel`),
 };
+// eslint-disable-next-line import/prefer-default-export
