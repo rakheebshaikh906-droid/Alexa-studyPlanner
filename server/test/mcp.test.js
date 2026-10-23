@@ -195,3 +195,5 @@ test('MCP_AUTH_TOKEN requires a bearer token', async () => {
     secured.close();
   }
 });
+
+//bugs fixesa
