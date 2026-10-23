@@ -149,3 +149,5 @@ export default function TasksView({ tasks, today, onCreate, onComplete, onUpdate
     </section>
   );
 }
+
+//bugs fixes 
