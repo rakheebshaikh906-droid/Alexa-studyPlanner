@@ -83,3 +83,5 @@ export default function ActionCard({ action, onResolve, compact = false, showReq
     </div>
   );
 }
+
+//debugging done
