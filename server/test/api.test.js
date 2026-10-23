@@ -8,6 +8,7 @@ import path from 'node:path';
 import { Store } from '../src/store.js';
 import { createApp } from '../src/app.js';
 import { toolJsonSchemas } from '../src/tools.js';
+//
 
 process.env.AI_PROVIDER = 'local';
 const TODAY = '2026-10-22';
