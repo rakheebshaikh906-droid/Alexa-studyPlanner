@@ -13,7 +13,7 @@ import { randomUUID } from 'node:crypto';
 import { toolJsonSchemas } from './tools.js';
 import { executeTool, resolveConfirmation } from './executor.js';
 import { todayIso } from './dates.js';
-
+//
 export const MCP_PROTOCOL_VERSION = LATEST_PROTOCOL_VERSION;
 
 const TITLES = {
