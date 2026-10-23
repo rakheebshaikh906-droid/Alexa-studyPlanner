@@ -122,4 +122,4 @@ export default function Chat({ messages, sending, onSend, onResolve, tts }) {
       </form>
     </section>
   );
-}
+}//bugs fixs
