@@ -6,7 +6,7 @@ import { runClaude, claudeAvailable, claudeModel } from './claude.js';
 
 export function activeProvider() {
   if ((process.env.AI_PROVIDER || '').toLowerCase() === 'local') return 'local';
-  return claudeAvailable() ? 'anthropic' : 'local';
+  return claudeAvailable() ? 'anthropic' : 'local';//
 }
 
 export function providerInfo() {
