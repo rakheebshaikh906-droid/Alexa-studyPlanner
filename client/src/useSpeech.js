@@ -97,3 +97,5 @@ export function useSpeechOutput() {
 
   return { supported, enabled, speaking, toggle, speak };
 }
+
+//debugging done
