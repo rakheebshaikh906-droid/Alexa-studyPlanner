@@ -6,7 +6,7 @@ import crypto from 'node:crypto';
 
 const EMPTY = () => ({ tasks: [], plans: [], actions: [] });
 
-export class Store {
+export class Store {//
   constructor(filePath) {
     this.filePath = filePath;
     this.data = EMPTY();
