@@ -66,3 +66,5 @@ export default function PlansView({ plans, today }) {
     </section>
   );
 }
+
+//bugs fixs
